@@ -1,6 +1,7 @@
 # Detection of Botnet Attacks Targeting IoT Devices
 ## Utilizing Machine Learning for the Detection of Botnet Attacks Targeting IoT Devices
-
+You can find the full report of this project on this link:
+https://drive.google.com/file/d/1pCwXuQzUzKTqzE7RRQKN7Qrs4f0p1zOI/view?usp=drive_link
 ### Project Introduction
 
 #### 1.1 Project Objective
