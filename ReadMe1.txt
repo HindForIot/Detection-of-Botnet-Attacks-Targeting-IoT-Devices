@@ -1,47 +1,36 @@
-يحوي هذا المجلد على نوعين من المجلدات
-ينصح بالبدء بقراءة المجلدات حسب الترتيب الموجود هنا
-----------------------------------------------
-المجلد الأول: Data-Preproccessing
-----------------------------------------------
-يحوي على الأكواد التي طبقت من أجل تنفيذ عملية المعالجة الأولية
-الغرض من هذه العملية هي استخراج سمات على مستوى الحزمة وإضافة أسماء الهجمات الموافق لكل مجموعة من الحزم
-ثم يتم تنظيف البيانات لتحضيرها من أجل الدخول إلى نموذج المصنفات
-دخل العملية: IoT-23 Dataset (Flow-based dataset)
-خرج العملية: Npacket.csv file (Packet-based dataset)
+#It is recommended to begin by reading the directories in the order provided here.
+##First Subdirectory: Data-Preprocessing
+This subdirectory contains codes implemented for executing the initial processing operation. The purpose of this process is to extract features at the packet level and add attack names corresponding to each packet group. Subsequently, the data is cleaned to prepare it for entry into the classifier model.
 
------------------------------------------------
-المجلد الثاني: Experments
------------------------------------------------
- ويحوي نموذج المصنفات التي تم تطبيقها على مجموعة البيانات المشتقة وفق تجارب تتضمن التالي
+Process Input: IoT-23 Dataset (Flow-based dataset)
+Process Output: Npacket.csv file (Packet-based dataset)
 
+##Second Subdirectory: Experiments
+This subdirectory contains the classifier model applied to the derived dataset, following experiments that include the following:
 
-تطبيق أربعة خوارزميات
-1-Random forest.
-2-XGBoost.
-3-LSTM.
-4-KNN.
+Application of four algorithms:
+1- Random forest.
+2- XGBoost.
+3- LSTM.
+4- KNN.
 
-جميع هذه الخوارزميات تم تنفيذها من أجل جميع هذه الحالات
-1- N=1
-2- N=2
-   .
-   .
-   .
-5- N=5
-6- N=10
-7- N=15
-8- N=20
-
+All these algorithms are implemented for the following cases:
+N=1
+N=2
+.
+.
+.
+N=5
+N=10
+N=15
+N=20
 N: Number of packets from each flow.
 
+The execution was also conducted based on two scenarios:
 
-
-كما تم التنفيذ وفق سيناريوهين
-1- Scenario 1: With ports numbers
-1- Scenario 2: Without ports numbers
-
-دخل العملية: Npacket.csv files (with different N)
-خرج العملية: Best scenario.
-         Best Algorithm.
-         Best N.
--------------------------------------------------------------
+Scenario 1: With port numbers.
+Scenario 2: Without port numbers.
+Process Input: Npacket.csv files (with different N)
+Process Output: Best scenario.
+Best Algorithm.
+Best N.
