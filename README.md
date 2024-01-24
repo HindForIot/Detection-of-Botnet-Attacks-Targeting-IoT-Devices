@@ -47,15 +47,8 @@ Application of four algorithms:
 4- KNN.
 
 All these algorithms are implemented for the following cases:
-N=1
-N=2
-.
-.
-.
-N=5
-N=10
-N=15
-N=20
+N=1, N=2,..., N=5, N=10, N=15, N=20
+
 N: Number of packets from each flow.
 
 The execution was also conducted based on two scenarios:
