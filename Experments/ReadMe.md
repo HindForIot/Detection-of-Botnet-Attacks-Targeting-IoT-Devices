@@ -12,9 +12,7 @@ This subdirectory contains the source code that was used to gradually reduce the
 - Take a window containing 10 packets from the beginning of each flow.
 - Take a window containing 5 packets from the beginning of each flow.
 - Take a window containing 4 packets from the beginning of each flow.
-                                    .
-                                    .
-                                    .
+                            ...       
 - Take a window containing one packet from the beginning of each flow.
   
 Finally, all results were stored in separate files.
