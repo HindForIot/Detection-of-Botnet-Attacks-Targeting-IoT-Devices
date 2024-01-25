@@ -23,10 +23,11 @@ Finally, all results were stored in separate files.
 ### Scenario Number 1
 This is the scenario where port numbers were adopted as features in dataset. In this scenario, the following algorithm was applied:
 
-1- Random Forest.
-2- XGBoost.
-3- LSTM.
-4- KNN.
+- Random Forest.
+- XGBoost.
+- LSTM.
+- KNN.
+  
 The algorithm application process was performed on all packet numbers taken from the beginning of each flow mentioned above. Therefore, there are 8 codes inside this subdirectory, with each code dedicated to a specific number of packets.
 
 ## Third Subdirectory: 
