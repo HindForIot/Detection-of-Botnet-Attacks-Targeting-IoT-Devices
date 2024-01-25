@@ -21,7 +21,7 @@ Finally, all results were stored in separate files.
 
 ## Second Subdirectory:
 ### Scenario Number 1
-This is the scenario where port numbers were adopted as features in the training and testing dataset. In this scenario, the following algorithm was applied:
+This is the scenario where port numbers were adopted as features in dataset. In this scenario, the following algorithm was applied:
 
 1- Random Forest.
 2- XGBoost.
