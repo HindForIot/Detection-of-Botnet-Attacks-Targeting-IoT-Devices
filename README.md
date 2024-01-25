@@ -1,4 +1,5 @@
-$${\color{red} Detection of Botnet Attacks}$$
+# $${\color{blue}Detection \space \color{blue}of \space \color{blue}Botnet \space \color{blue}{Attacks}}$$	
+
 ## Utilizing Machine Learning for the Detection of Botnet Attacks Targeting IoT Devices
 You can find the full report for this project at the following link:
 https://drive.google.com/file/d/16oCc9ZhtIP3tYDeGMo4JPjaBM4P50G6f/view?usp=drive_link
@@ -30,7 +31,18 @@ Figure (1-1) shows the proposed model flowchart. After conducting the literature
 
 
 
-# It is recommended to begin by reading the directories in the order provided here.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+$${\color{red}It \space \color{red}is \space \color{red}recommended \space \color{red}to \space \color{red}begin \space \color{red}by \space \color{red}reading \space \color{red}the \space \color{red}directories \space \color{red}in \space \color{red}the \space \color{red}order \space \color{red}provided \space \color{red}{here.}}$$
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+              
 ## First Subdirectory: Data-Preprocessing
 This subdirectory contains codes implemented for executing the initial processing operation. The purpose of this process is to extract features at the packet level and add attack names corresponding to each packet group. Subsequently, the data is cleaned to prepare it for entry into the classifier model.
 
