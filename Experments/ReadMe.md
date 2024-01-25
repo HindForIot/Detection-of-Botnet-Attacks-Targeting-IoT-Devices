@@ -31,4 +31,4 @@ The algorithm application process was performed on all packet numbers taken from
 
 ## Third Subdirectory: 
 ### Scenario Number 2
-This is the scenario where port numbers were deleted from the features in the training and testing dataset. In this scenario, the same algorithms were applied as in Scenario Number 1, and the algorithm application process was performed on all packet numbers taken from the beginning of each flow mentioned above. Therefore, there are 8 codes inside this subdirectory, with each code dedicated to a specific number of packets.
+This is the scenario where port numbers were deleted from the features in the dataset. In this scenario, the same algorithms were applied as in Scenario Number 1, and the algorithm application process was performed on all packet numbers taken from the beginning of each flow mentioned above. Therefore, there are 8 codes inside this subdirectory, with each code dedicated to a specific number of packets.
