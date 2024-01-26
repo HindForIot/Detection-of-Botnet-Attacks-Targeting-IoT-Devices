@@ -2,7 +2,7 @@
 
 ## Utilizing Machine Learning for the Detection of Botnet Attacks Targeting IoT Devices
 You can find the full report for this project at the following link:
-https://drive.google.com/file/d/16oCc9ZhtIP3tYDeGMo4JPjaBM4P50G6f/view?usp=drive_link
+https://drive.google.com/file/d/16oCc9ZhtIP3tYDeGMo4JPjaBM4P50G6f/view?usp=sharing
 ### Project Introduction
 
 #### 1.1 Project Objective
